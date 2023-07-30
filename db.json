@@ -252,36 +252,11 @@
       },
       "photoURL": "",
       "id": 21
-    },
-    {
-      "fullName": "asd",
-      "name": "Azattttsadasdasdasda",
-      "age": 23,
-      "status": "asdasdasdhjf;asdhf;hsad;hnxcbzvlkbzxcvlkbaldfhgalhfdskjfhaksdfhlkjbzxlkblkvb lkxcjvhblkzxhb lkvhxzlkchv kxzchjvklhj zxckvhklzx jchlvkjhzxckv",
-      "location": {
-        "country": "",
-        "city": ""
-      },
-      "photoURL": "",
-      "id": 22,
-      "followed": false
-    },
-    {
-      "fullName": "Fayzrakhmanov",
-      "name": "Azatttt",
-      "age": 11,
-      "status": "",
-      "location": {
-        "country": "",
-        "city": ""
-      },
-      "photoURL": "",
-      "id": 23
     }
   ],
-  "totalCount": [
-    23
-  ],
+  "totalCount": {
+    "value": 24
+  },
   "auth": [
     {
       "id": 4,
@@ -297,22 +272,6 @@
       "login": "Ankra1tsad",
       "email": "az1kgo@mail.ruasd",
       "token": "LEKKmlSQQeT8B1W",
-      "main_color": "#AFDAFC"
-    },
-    {
-      "id": 22,
-      "password": "1d707811988069ca760826861d6d63a10e8c3b7f171c4441a6472ea58c11711b",
-      "login": "Ankra1ts",
-      "email": "az1kgo@mail.rus",
-      "token": "",
-      "main_color": "#AFDAFC"
-    },
-    {
-      "id": 23,
-      "email": "azat_fayzrahmanov@mail.ru",
-      "login": "Азат",
-      "password": "1d707811988069ca760826861d6d63a10e8c3b7f171c4441a6472ea58c11711b",
-      "token": "",
       "main_color": "#AFDAFC"
     }
   ],
@@ -336,11 +295,6 @@
       "authID": 4,
       "userID": 8,
       "id": 6
-    },
-    {
-      "authID": 4,
-      "userID": 22,
-      "id": 7
     },
     {
       "authID": 4,
@@ -705,12 +659,6 @@
       "withID": 19,
       "message": "asdasd",
       "id": 65
-    },
-    {
-      "fromID": 4,
-      "withID": 22,
-      "message": "ыфв",
-      "id": 66
     }
   ],
   "posts": [
