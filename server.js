@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults();
 server.use(cors());
 server.use((req, res, next) => {
 	res.header('Access-Control-Allow-Origin', '*');
-	next();
+	res.header('Access-Control-Allow-Headers', '*');
 });
 
 server.use(middlewares);
