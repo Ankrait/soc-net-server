@@ -1,17 +1,26 @@
 const jsonServer = require('json-server');
+const https = require('https');
+const path = require('path');
+const fs = require('fs');
+
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults({ noCors: true });
-// const cors = require('cors');
-
-// server.use(cors());
-// server.use((req, res, next) => {
-// 	res.header('Access-Control-Allow-Origin', '*');
-// 	res.header('Access-Control-Allow-Headers', '*');
-// });
 
 server.use(middlewares);
 server.use(router);
-server.listen(3000, () => {
-	console.log('JSON Server is running');
-});
+
+const keyFile = path.join(__dirname, 'server.key');
+const certFile = path.join(__dirname, 'server.cert');
+
+https
+	.createServer(
+		{
+			key: fs.readFileSync(keyFile),
+			cert: fs.readFileSync(certFile),
+		},
+		server
+	)
+	.listen(3000, () => {
+		console.log('JSON Server is running');
+	});
