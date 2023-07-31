@@ -5,10 +5,10 @@ const middlewares = jsonServer.defaults({ noCors: true });
 // const cors = require('cors');
 
 // server.use(cors());
-server.use((req, res, next) => {
-	res.header('Access-Control-Allow-Origin', '*');
-	res.header('Access-Control-Allow-Headers', '*');
-});
+// server.use((req, res, next) => {
+// 	res.header('Access-Control-Allow-Origin', '*');
+// 	res.header('Access-Control-Allow-Headers', '*');
+// });
 
 server.use(middlewares);
 server.use(router);
