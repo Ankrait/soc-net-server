@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install the application dependencies using npm ci for production environment
-RUN npm ci --only=production
+RUN npm install --only=production
 
 # Define the entry point for the container
 CMD ["npm", "start"]
