@@ -2,9 +2,9 @@
   "users": [
     {
       "id": 1,
-      "fullName": "Mironychev",
-      "name": "Mattew",
-      "age": 18,
+      "fullName": "Mironov",
+      "name": "Mat",
+      "age": 19,
       "status": "Designer",
       "location": {
         "country": "Russia",
@@ -14,8 +14,8 @@
     },
     {
       "id": 2,
-      "fullName": "Taimullina",
-      "name": "Katerina",
+      "fullName": "Taim",
+      "name": "Kate",
       "age": 18,
       "status": "Psixolog",
       "location": {
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "fullName": "Pureskin",
+      "fullName": "Pureskov",
       "name": "Maksim",
       "age": 21,
       "status": "Dev",
@@ -34,14 +34,14 @@
         "country": "Russia",
         "city": "Saransk"
       },
-      "photoURL": "https://sun9-80.userapi.com/impg/8hE7P0qpGi4CZaPUq0HuyG9BG7uCnVZFCpUyaw/I_Rj6jGzdI0.jpg?size=1392x1600&quality=96&sign=91249332c605297cd2c186c3d7484927&type=album"
+      "photoURL": ""
     },
     {
       "id": 4,
-      "fullName": "Fayzrakhmanovasdasda",
-      "name": "Azatt asdasdasdasdas",
+      "fullName": "Fayzrov",
+      "name": "Azatt",
       "age": 22,
-      "status": "Front-end",
+      "status": "",
       "location": {
         "country": "Russia",
         "city": "Kazan"
@@ -242,8 +242,8 @@
       "photoURL": null
     },
     {
-      "fullName": "asd",
-      "name": "asd",
+      "fullName": "Asdov",
+      "name": "Asd",
       "age": 12,
       "status": "",
       "location": {
