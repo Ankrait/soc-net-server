@@ -10,5 +10,8 @@ COPY . /app
 # Install the application dependencies using npm ci for production environment
 RUN npm install --only=production
 
+# Expose port 3000 for the application
+EXPOSE 3000
+
 # Define the entry point for the container
 CMD ["npm", "start"]
