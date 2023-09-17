@@ -9,16 +9,16 @@ git clone https://github.com/Ankrait/MyProject.git
 2. Установка зависимостей
 ```sh
 yarn install
-```
-or with npm
-```sh
+
+// or with npm
+
 npm install
 ```
 3. Старт сервера
 ```sh
 yarn start
-```
-or with npm
-```sh
+
+// or with npm
+
 npm start
 ```
