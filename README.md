@@ -2,11 +2,14 @@
 <br />
 [Ссылка на приложение](https://ankrait.github.io/SocialNetwork/)
 
+### Built With
+* json-server
+
 ### Getting Started
 Для локального запуска
 1. Клонирование репозитория
 ```sh
-git clone https://github.com/Ankrait/MyProject.git
+git clone https://github.com/Ankrait/soc-net-server.git
 ```
 2. Установка зависимостей
 ```sh
