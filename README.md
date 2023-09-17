@@ -1,5 +1,6 @@
 Имитация бэкенда для [SocialNetwork](https://github.com/Ankrait/SocialNetwork).
-[Ссылка на GitHub Pages](https://ankrait.github.io/SocialNetwork/)
+<br />
+[Ссылка на приложение](https://ankrait.github.io/SocialNetwork/)
 
 ### Getting Started
 Для локального запуска
